@@ -50,6 +50,8 @@ This section combines results from all enabled criteria functions:
 - **Trend Zones**: Highlights periods of significant upward momentum (green shaded areas). These zones are identified through a two-step process: first by finding consensus points where multiple methods agree, then by analyzing the smoothed derivative pattern to expand these zones using z-score thresholding.
 - **Quarters List**: Shows the specific quarters within identified trend zones, representing time periods where the term demonstrates statistically significant growth patterns.
 
+___
+
 ### Future Improvements
 
 - Global Leaderboard of ngrams that show significant trend
