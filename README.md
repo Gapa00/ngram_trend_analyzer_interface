@@ -49,3 +49,9 @@ This section combines results from all enabled criteria functions:
 - **Signal Heatmap**: Displays quarters that exceed statistical thresholds (green cells) for each criteria function. By default, values above 2 standard deviations (σ=2) are flagged. A quarter must be identified by a majority of enabled criteria functions to become a consensus point.
 - **Trend Zones**: Highlights periods of significant upward momentum (green shaded areas). These zones are identified through a two-step process: first by finding consensus points where multiple methods agree, then by analyzing the smoothed derivative pattern to expand these zones using z-score thresholding.
 - **Quarters List**: Shows the specific quarters within identified trend zones, representing time periods where the term demonstrates statistically significant growth patterns.
+
+### Future Improvements
+
+- Global Leaderboard of ngrams that show significant trend
+- Implementation of dynamic preprocessing instead of direct reading of the dataset from a file
+- Addition of larger ngrams (n>1)
